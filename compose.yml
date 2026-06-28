@@ -1,0 +1,10 @@
+services:
+  db:
+
+  api:
+    depends_on:
+      - db
+
+  web:
+    depends_on:
+      - api
