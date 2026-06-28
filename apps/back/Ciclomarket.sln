@@ -1,0 +1,123 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_API", "_API", "{ECB19748-A0E7-4E35-91D4-04596864E846}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciclomarket.Api", "_API\Ciclomarket.Api\Ciclomarket.Api.csproj", "{ECA4F3F7-4BA1-43A3-AC64-4BD7E6971516}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Analytics", "Analytics", "{181F4BC1-D12B-43A6-AA78-29880E4177C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciclomarket.Analytics", "Analytics\Ciclomarket.Analytics\Ciclomarket.Analytics.csproj", "{60657F06-7F2C-4055-B343-6F968C186EE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{FF675926-A25D-41EE-BD91-F845720C4EED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciclomarket.Auth", "Auth\Ciclomarket.Auth\Ciclomarket.Auth.csproj", "{DF3AA009-ACF4-47F7-9660-D903D6196203}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{22B6400E-AEA4-429D-A2E5-5F2FF5043EEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciclomarket.Catalog.Application", "Catalog\Ciclomarket.Catalog.Application\Ciclomarket.Catalog.Application.csproj", "{3096C646-B15C-4375-9791-82D0661E4355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciclomarket.Catalog.Domain", "Catalog\Ciclomarket.Catalog.Domain\Ciclomarket.Catalog.Domain.csproj", "{EA4D8B39-08AA-4901-9E13-FE43988CB5EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciclomarket.Catalog.Infrastructure", "Catalog\Ciclomarket.Catalog.Infrastructure\Ciclomarket.Catalog.Infrastructure.csproj", "{72F88720-0943-4B07-88B2-4950A9C3E09A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inventory", "Inventory", "{AD238540-0E2E-4B40-96A3-AC257BDF3C51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciclomarket.Inventory.Application", "Inventory\Ciclomarket.Inventory.Application\Ciclomarket.Inventory.Application.csproj", "{35E7BE75-1ABC-495C-BA7B-299D26ED2EA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciclomarket.Inventory.Domain", "Inventory\Ciclomarket.Inventory.Domain\Ciclomarket.Inventory.Domain.csproj", "{2089CC0A-8741-40C0-AA7B-C83B162DEA0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciclomarket.Inventory.Infrastructure", "Inventory\Ciclomarket.Inventory.Infrastructure\Ciclomarket.Inventory.Infrastructure.csproj", "{AC9A0A8E-B498-4E67-822C-0E3A8473A017}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notifications", "Notifications", "{98EDCC52-F11F-453C-B129-481DAF5CA102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciclomarket.Notifications", "Notifications\Ciclomarket.Notifications\Ciclomarket.Notifications.csproj", "{3EA5449C-8881-4CC5-ADA7-EC13A2C1381A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Orders", "Orders", "{2CA67188-6C19-4062-A3CA-4CCC3C9A0BBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciclomarket.Orders.Application", "Orders\Ciclomarket.Orders.Application\Ciclomarket.Orders.Application.csproj", "{233F4DB0-12CF-42ED-8F97-3EADCE01CD80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciclomarket.Orders.Domain", "Orders\Ciclomarket.Orders.Domain\Ciclomarket.Orders.Domain.csproj", "{DA24D6EA-027F-4126-B448-7830593DFEA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciclomarket.Orders.Infrastructure", "Orders\Ciclomarket.Orders.Infrastructure\Ciclomarket.Orders.Infrastructure.csproj", "{D05A35BD-ECF0-4961-92F3-7CF80EAF1D01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECA4F3F7-4BA1-43A3-AC64-4BD7E6971516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA4F3F7-4BA1-43A3-AC64-4BD7E6971516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA4F3F7-4BA1-43A3-AC64-4BD7E6971516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA4F3F7-4BA1-43A3-AC64-4BD7E6971516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60657F06-7F2C-4055-B343-6F968C186EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60657F06-7F2C-4055-B343-6F968C186EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60657F06-7F2C-4055-B343-6F968C186EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60657F06-7F2C-4055-B343-6F968C186EE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF3AA009-ACF4-47F7-9660-D903D6196203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3AA009-ACF4-47F7-9660-D903D6196203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF3AA009-ACF4-47F7-9660-D903D6196203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF3AA009-ACF4-47F7-9660-D903D6196203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3096C646-B15C-4375-9791-82D0661E4355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3096C646-B15C-4375-9791-82D0661E4355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3096C646-B15C-4375-9791-82D0661E4355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3096C646-B15C-4375-9791-82D0661E4355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4D8B39-08AA-4901-9E13-FE43988CB5EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4D8B39-08AA-4901-9E13-FE43988CB5EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4D8B39-08AA-4901-9E13-FE43988CB5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4D8B39-08AA-4901-9E13-FE43988CB5EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72F88720-0943-4B07-88B2-4950A9C3E09A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F88720-0943-4B07-88B2-4950A9C3E09A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F88720-0943-4B07-88B2-4950A9C3E09A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F88720-0943-4B07-88B2-4950A9C3E09A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35E7BE75-1ABC-495C-BA7B-299D26ED2EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E7BE75-1ABC-495C-BA7B-299D26ED2EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E7BE75-1ABC-495C-BA7B-299D26ED2EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E7BE75-1ABC-495C-BA7B-299D26ED2EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2089CC0A-8741-40C0-AA7B-C83B162DEA0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2089CC0A-8741-40C0-AA7B-C83B162DEA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2089CC0A-8741-40C0-AA7B-C83B162DEA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2089CC0A-8741-40C0-AA7B-C83B162DEA0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC9A0A8E-B498-4E67-822C-0E3A8473A017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC9A0A8E-B498-4E67-822C-0E3A8473A017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC9A0A8E-B498-4E67-822C-0E3A8473A017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC9A0A8E-B498-4E67-822C-0E3A8473A017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA5449C-8881-4CC5-ADA7-EC13A2C1381A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA5449C-8881-4CC5-ADA7-EC13A2C1381A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA5449C-8881-4CC5-ADA7-EC13A2C1381A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA5449C-8881-4CC5-ADA7-EC13A2C1381A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{233F4DB0-12CF-42ED-8F97-3EADCE01CD80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233F4DB0-12CF-42ED-8F97-3EADCE01CD80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233F4DB0-12CF-42ED-8F97-3EADCE01CD80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233F4DB0-12CF-42ED-8F97-3EADCE01CD80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA24D6EA-027F-4126-B448-7830593DFEA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA24D6EA-027F-4126-B448-7830593DFEA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA24D6EA-027F-4126-B448-7830593DFEA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA24D6EA-027F-4126-B448-7830593DFEA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D05A35BD-ECF0-4961-92F3-7CF80EAF1D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D05A35BD-ECF0-4961-92F3-7CF80EAF1D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D05A35BD-ECF0-4961-92F3-7CF80EAF1D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D05A35BD-ECF0-4961-92F3-7CF80EAF1D01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ECA4F3F7-4BA1-43A3-AC64-4BD7E6971516} = {ECB19748-A0E7-4E35-91D4-04596864E846}
+		{60657F06-7F2C-4055-B343-6F968C186EE5} = {181F4BC1-D12B-43A6-AA78-29880E4177C5}
+		{DF3AA009-ACF4-47F7-9660-D903D6196203} = {FF675926-A25D-41EE-BD91-F845720C4EED}
+		{3096C646-B15C-4375-9791-82D0661E4355} = {22B6400E-AEA4-429D-A2E5-5F2FF5043EEB}
+		{EA4D8B39-08AA-4901-9E13-FE43988CB5EC} = {22B6400E-AEA4-429D-A2E5-5F2FF5043EEB}
+		{72F88720-0943-4B07-88B2-4950A9C3E09A} = {22B6400E-AEA4-429D-A2E5-5F2FF5043EEB}
+		{35E7BE75-1ABC-495C-BA7B-299D26ED2EA3} = {AD238540-0E2E-4B40-96A3-AC257BDF3C51}
+		{2089CC0A-8741-40C0-AA7B-C83B162DEA0F} = {AD238540-0E2E-4B40-96A3-AC257BDF3C51}
+		{AC9A0A8E-B498-4E67-822C-0E3A8473A017} = {AD238540-0E2E-4B40-96A3-AC257BDF3C51}
+		{3EA5449C-8881-4CC5-ADA7-EC13A2C1381A} = {98EDCC52-F11F-453C-B129-481DAF5CA102}
+		{233F4DB0-12CF-42ED-8F97-3EADCE01CD80} = {2CA67188-6C19-4062-A3CA-4CCC3C9A0BBB}
+		{DA24D6EA-027F-4126-B448-7830593DFEA1} = {2CA67188-6C19-4062-A3CA-4CCC3C9A0BBB}
+		{D05A35BD-ECF0-4961-92F3-7CF80EAF1D01} = {2CA67188-6C19-4062-A3CA-4CCC3C9A0BBB}
+	EndGlobalSection
+EndGlobal
