@@ -127,11 +127,12 @@ Agregar autenticación JWT y centralizar acceso.
 
 Extraer gradualmente:
 
-1.  Inventory
-2.  Notifications
-3.  Analytics
-4.  Catalog
-5.  Orders
+1.  Auth
+2.  Inventory
+3.  Notifications
+4.  Analytics
+5.  Catalog
+6.  Orders
 
 ## Fase 5 - CI/CD
 
@@ -185,8 +186,7 @@ Orders: - Carrito - Checkout - Estados - Validaciones
 
 ## Python
 
-Analytics: - Productos más vendidos - Ventas por día - Ticket promedio -
-Clientes frecuentes
+Analytics: - Productos más vendidos - Ventas por día - Ticket promedio - Clientes frecuentes
 
 ------------------------------------------------------------------------
 

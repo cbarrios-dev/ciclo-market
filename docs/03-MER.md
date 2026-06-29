@@ -245,3 +245,19 @@
 - Al cancelar una orden pendiente se libera `reserved_quantity`
 - El precio de un producto en `order_items` es copia del momento de la compra
 - Eliminar un producto no afecta órdenes ya creadas (integridad histórica)
+
+---
+
+## 5. Asignación a microservicios (Fase Final)
+
+| Microservicio      | Tablas que gestiona                          |
+| ------------------ | -------------------------------------------- |
+| **Auth**       | `users`                                      |
+| **Catalog**    | `categories`, `products`                     |
+| **Inventory**  | `inventories`, `stock_movements`             |
+| **Orders**       | `carts`, `cart_items`, `orders`, `order_items`                        |
+
+> Cada microservicio posee su propia base de datos y solo accede a sus tablas.
+> La comunicación entre servicios ocurre vía API (REST/eventos), nunca por
+> joins entre BDs. Las referencias foráneas entre servicios (p. ej.
+> `user_id` en `orders`) se mantienen como UUIDs sin constraint FK real.
